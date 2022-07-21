@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PRUEBA DE LOGICA DE PROGRAMACION</h1>
+    <h2>Cual es tu nombre?</h2>
+    <input type="text" id="respuesta">
+    <button onclick="mostrarNombre()">Hola!</button>
+    <p></p>
+    <script>
+        
+        function mostrarNombre(){
+            //let title = document.getElementById("title");
+            let respuesta = document.getElementById("respuesta").value;
+            //respuesta.textContent = document.getElementsByTagName("p");
+           document.writeln("<h1>PRUEBA DE LOGICA DE PROGRAMACION</h1><h2>Cual es tu nombre?</h2><p style='font-size: 70px'>HOLA!</p>"+ "Tu nombre es: " + respuesta);
+        }
+        //this.innerHTML(mostrarNombre());
+    </script>
+</body>
+</html>
